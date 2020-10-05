@@ -1,0 +1,39 @@
+/* :root {
+    font-family: 'Miriam Libre', sans-serif;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+;
+}
+
+.logo {
+    color: #fcfcfc;
+    font-size: 70px;
+}
+
+ul li a {
+    color: #FFFFFF !important;
+}
+
+.bg-purple{
+    background: #770099;
+}
+
+.hero {
+    background-image: url(../img/coviBanner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 10rem;
+    height: 40em;
+  }
+
+hr {
+    color:#FFFFFF;
+    border: solid 1px;
+    width: 65%;
+    margin: auto;
+}
