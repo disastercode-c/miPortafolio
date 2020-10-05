@@ -14,9 +14,14 @@
     font-size: 70px;
 }
 
-.icons {
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+.icons a i {
     color:#FFFFFF;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 ul li a {
@@ -44,10 +49,10 @@ hr {
 }
 
 .experiencieSection {
-    color: black;
-    width: 40%;
+    color: #9C27B0;
+    width: 60%;
 }
-  
+
 .carousel-indicators li {
     width: 10px;
     height: 10px;
@@ -86,3 +91,22 @@ hr {
 textarea {
     resize: none;
 }
+
+body h2, h4 {
+    font-family: 'Miriam Libre', sans-serif;
+}
+
+h1, h3 {
+    font-family: 'Sansita Swashed', cursive;
+
+}
+
+
+.dark-primary-color    { background: #7B1FA2; }
+.default-primary-color { background: #9C27B0; }
+.light-primary-color   { background: #E1BEE7; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FF4081; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }

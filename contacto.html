@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap" rel="stylesheet">
     <title>Contacto</title>
 </head>
+
 <body>
 
     <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-purple fixed-top">
@@ -33,28 +35,45 @@
     </nav>
     <form class="container mt-4 pt-5">
         <div class="form-group pt-5">
-          <label for="fullname">Nombre Completo</label>
-          <input type="text" class="form-control" id="fullname" aria-describedby="nameHelp" placeholder="Ingrese su nombre">
-          <small id="nameHelp" class="form-text text-muted">Share your name with us!.</small>
+            <label for="fullname">Nombre Completo</label>
+            <input type="text" class="form-control" id="fullname" aria-describedby="nameHelp"
+                placeholder="Ingrese su nombre">
+            <small id="nameHelp" class="form-text text-muted">Share your name with us!.</small>
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">No soy un robot</label>
+            <label for="email">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="Correo Electrónico">
+            <small id="emailHelp" class="form-text text-muted">Write your personal e-mail.</small>
         </div>
         <div class="form-group">
             <label for="textOpinion">¡Escríbenos un comentario!</label>
             <textarea name="textOpinion" id="opinion" col="6" rows="6" class="form-control"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">No soy un robot</label>
+        </div>
 
+        <button type="reset" class="btn btn-warning">Limpiar Datos</button>
+        <a href="./index.html"><button class="btn btn-primary" type="button">Volver</button></a>
+
+    </form>                                                                          
+
+
+    <section id="foot" class="text-center text-light bg-purple p-3">
+        <h3>COVI THE KITTY</h3>
+        <footer class="icons p-3 m-auto">
+            <a href="http://www.github.com"><i class="fab fa-github-square"></i></a>
+            <a href="http://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+            <a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+            <a href="http://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+            <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        </footer>
+    </section>
 
     <script src="Assets/js/jQuery.js"></script>
     <script src="Assets/js/popper.js"></script>
     <script src="Assets/js/bootstrap.js"></script>
 </body>
+
 </html>

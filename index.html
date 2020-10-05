@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="Assets/css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;500;700&display=swap"
+        rel="stylesheet">
     <title>Mi Portafolio</title>
 </head>
 
@@ -38,15 +40,18 @@
     <!--Header-->
     <header id="Inicio" class="d-flex align-items-end p-2 m-0 text-center hero text-light pt-5 mt-5">
         <div class="container ">
-            <h3 class="display-4 font-weight-bold p-2">YO SOY</h3>
+            <h3 class="display-4 p-2">YO SOY</h3>
             <hr />
-            <h1 class="display-1 font-weight-bold p-2">COVI</h1>
+            <h1 class="display-1 p-2">COVI</h1>
         </div>
     </header>
 
     <!--carousel-->
-    <div class="container d-none d-sm-none d-md-block p-4">
-        <h2 class="display-3 font-weight-bold text-center pb-5">Mis Fotografías</h2>
+    <div class="container-fluid light-primary-color d-none d-sm-none d-md-block">
+        <h2 class="text-center p-3">Mis Fotografías</h2>
+        <hr />
+    </div>
+    <div class="d-none d-sm-none d-md-block p-3">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner d-flex align-items-center">
                 <div class="carousel-item active">
@@ -67,35 +72,80 @@
         </div>
     </div>
 
+    <!--Section about me. Introduction to my experiencie-->
+    <section id="About" class="mySelf">
+        <div class="d-none d-sm-none d-md-block">
+            <h2 class="light-primary-color text-center p-3">Algunas cosas sobre mí
+                que no conocías</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 text-center">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe doloremque quas
+                        amet,
+                        nostrum quos id labore voluptate in deserunt est cum totam tempora, aperiam adipisci sunt placeat
+                        culpa
+                        aut facere?Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sit dolore officiis
+                        quibusdam praesentium aperiam ratione,
+                        cum quod asperiores animi ad odit ipsam assumenda illo? A libero esse obcaecati voluptatibus?Lorem
+                        ipsum dolor sit, amet consectetur adipisicing elit. A sit dolore officiis
+                        quibusdam praesentium aperiam ratione,
+                        cum quod asperiores animi ad odit ipsam assumenda illo? A libero esse obcaecati voluptatibus?Lorem
+                        ipsum dolor sit, amet consectetur adipisicing elit. A sit dolore officiis
+                        quibusdam praesentium aperiam ratione,
+                        cum quod asperiores animi ad odit ipsam assumenda illo? A libero esse obcaecati voluptatibus?
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 text-center">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sit
+                        dolore officiis
+                        quibusdam praesentium aperiam ratione,
+                        cum quod asperiores animi ad odit ipsam assumenda illo? A libero esse obcaecati voluptatibus?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sit dolore officiis
+                        quibusdam praesentium aperiam ratione,
+                        cum quod asperiores animi ad odit ipsam assumenda illo? A libero esse obcaecati voluptatibus?Lorem
+                        ipsum
+                        dolor sit, amet consectetur adipisicing elit. A sit dolore officiis
+                        quibusdam praesentium aperiam ratione,
+                        cum quod asperiores animi ad odit ipsam assumenda illo? A libero esse obcaecati voluptatibus?Lorem
+                        ipsum
+                        dolor sit, amet consectetur adipisicing elit. A sit dolore officiis
+                        quibusdam praesentium aperiam ratione,
+                        cum quod asperiores animi ad odit ipsam assumenda illo? A libero esse obcaecati voluptatibus?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Section Experience-->
     <section id="Experiencie" class="p-3">
         <div class="row m-auto ">
             <div class="col-12">
-                <h2 class="font-weight-bold text-center pb-3">Mi Experiencia</h2>
+                <h2 class="display-4 font-weight-bold text-center py-3">Mi Experiencia</h2>
                 <hr class="experiencieSection" />
             </div>
             <div class="col-sm-12 col-md-4 text-center p-4">
                 <i class="fab fa-java"></i>
-                <h3 class="font-weight-bold">Desarrollo Java</h3>
+                <h3 class="font-weight-bold p-3">Desarrollo Java</h3>
                 <h4>2017-2020</h4>
             </div>
             <div class="col-sm-12 col-md-4 text-center p-4">
                 <i class="fab fa-js-square"></i>
-                <h3 class="font-weight-bold">Desarrollo JavaScript</h3>
+                <h3 class="font-weight-bold p-3">Desarrollo JavaScript</h3>
                 <h4>2017-2020</h4>
             </div>
             <div class="col-sm-12 col-md-4 text-center p-4">
                 <i class="fab fa-angular"></i>
-                <h3 class="font-weight-bold">Desarrollo Angular</h3>
+                <h3 class="font-weight-bold p-3">Desarrollo Angular</h3>
                 <h4>2017-2020</h4>
             </div>
         </div>
     </section>
 
+    <!--Works in cards-->
     <section class="works bg-purple" id="Work">
         <div class="container row m-auto">
+            <!--Meet&Coffee Project Bootstrap card-->
             <div class="col-sm-12 col-md-4 p-4">
-                <div class="card">
+                <div class="card " data-toggle="tooltip" data-placement="bottom" title="Proyecto Meet & Coffe">
                     <img class="card-img-top" src="Assets/img/meet_coffee.png" alt="Card-image-M&C">
                     <div class="card-body">
                         <h5 class="card-title">Meet&Coffee</h5>
@@ -104,9 +154,9 @@
                     </div>
                 </div>
             </div>
-
+            <!--Iguana Project Bootstrap card-->
             <div class="col-sm-12 col-md-4 p-4">
-                <div class="card">
+                <div class="card" data-toggle="tooltip" data-placement="bottom" title="Proyecto Iguana page">
                     <img class="card-img-top" src="Assets/img/iguana_page.png" alt="Card-image-Iguanas">
                     <div class="card-body">
                         <h5 class="card-title">Iguana Page</h5>
@@ -115,9 +165,9 @@
                     </div>
                 </div>
             </div>
-
+            <!--Suricata Project Bootstrap card-->
             <div class="col-sm-12 col-md-4 p-4">
-                <div class="card">
+                <div class="card " data-toggle="tooltip" data-placement="bottom" title="Proyecto Suricata page">
                     <img class="card-img-top" src="Assets/img/suricata.png" alt="Card-image-Suricata">
                     <div class="card-body">
                         <h5 class="card-title">Suricata</h5>
@@ -126,9 +176,9 @@
                     </div>
                 </div>
             </div>
-
+            <!--Cuppon Project Bootstrap card-->
             <div class="col-sm-12 col-md-4 p-4">
-                <div class="card">
+                <div class="card" data-toggle="tooltip" data-placement="bottom" title="Proyecto Cuppon page">
                     <img class="card-img-top" src="Assets/img/cuppon.png" alt="Card-image-M&C">
                     <div class="card-body">
                         <h5 class="card-title">Cuppon</h5>
@@ -137,10 +187,10 @@
                     </div>
                 </div>
             </div>
-
+            <!--Ricomida Project Bootstrap card-->
             <div class="col-sm-12 col-md-4 p-4">
-                <div class="card">
-                    <img class="card-img-top" src="Assets/img/ricomida.png" alt="Card-image-M&C">
+                <div class="card" data-toggle="tooltip" data-placement="bottom" title="Proyecto Ricomida page">
+                    <img class="card-img-top" src="Assets/img/ricomida.png" alt="Card-image-Ricomida">
                     <div class="card-body">
                         <h5 class="card-title">Ricomida</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -148,9 +198,9 @@
                     </div>
                 </div>
             </div>
-
+            <!--Dmark Project Bootstrap card-->
             <div class="col-sm-12 col-md-4 p-4">
-                <div class="card">
+                <div class="card" data-toggle="tooltip" data-placement="bottom" title="Proyecto Dmark page">
                     <img class="card-img-top" src="Assets/img/dmark.png" alt="Card-image-M&C">
                     <div class="card-body">
                         <h5 class="card-title">Dmark</h5>
@@ -162,34 +212,33 @@
         </div>
 
     </section>
-
+    <!--Single TypeForm-->
     <section class="tform">
         <div class="typeform-widget mx-auto pb-3 questions" data-url="https://form.typeform.com/to/Y8dWPYJi"></div>
         <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
 
     </section>
 
-    <section class="contact">
-        <form action="">
-
-        </form>
-    </section>
-
     <!--footer page-->
     <section id="foot" class="text-center text-light bg-purple p-3">
-        <h3>COVI THE KITTY</h3>
-        <footer class="icons ">
-           <a href="http://www.github.com"><i class="fab fa-github-square"></i></a> 
-            <a href="http://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
-            <a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
-            <a href="http://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
-            <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <footer class="row icons p-3 m-auto">
+            <div class="col-sm-12 col-md-6">
+                <h2>COVI THE KITTY</h2>
+            </div>
+            <div class="col-sm-12 col-md-6 row align-items-center">
+                <a href="http://www.github.com" class="col"><i class="fab fa-github-square"></i></a>
+                <a href="http://www.linkedin.com" class="col"><i class="fab fa-linkedin"></i></a>
+                <a href="http://www.facebook.com" class="col"><i class="fab fa-facebook-square"></i></a>
+                <a href="http://www.twitter.com" class="col"><i class="fab fa-twitter-square"></i></a>
+                <a href="http://www.instagram.com" class="col"><i class="fab fa-instagram"></i></a>
+            </div>
         </footer>
     </section>
     <!--Script declaration-->
     <script src="Assets/js/jQuery.js"></script>
     <script src="Assets/js/popper.js"></script>
     <script src="Assets/js/bootstrap.js"></script>
+    <script src="Assets/js/master.js"></script>
 </body>
 
 </html>
