@@ -6,12 +6,17 @@
     margin: 0;
     padding: 0;
     border: 0;
-;
+    scroll-behavior: smooth;
 }
 
 .logo {
     color: #fcfcfc;
     font-size: 70px;
+}
+
+.icons {
+    color:#FFFFFF;
+    font-size: 50px;
 }
 
 ul li a {
@@ -32,8 +37,52 @@ ul li a {
   }
 
 hr {
-    color:#FFFFFF;
     border: solid 1px;
     width: 65%;
     margin: auto;
+    color: #FFFFFF;
+}
+
+.experiencieSection {
+    color: black;
+    width: 40%;
+}
+  
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #500050;
+    border: solid 2px #FFFFFF;
+}
+
+.imgs {
+    width: 700px;
+    height: 350px;
+}
+
+.questions {
+    width: 90vw;
+    height: 400px;
+
+}
+
+#Experiencie i {
+    font-size: 100px;
+}
+
+.fa-js-square {
+    color: yellow;
+}
+
+.fa-angular {
+    color: red;
+}
+
+.fa-java {
+    color:#202020
+}
+
+textarea {
+    resize: none;
 }

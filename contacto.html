@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/bootstrap.css">
+    <link rel="stylesheet" href="Assets/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+
+    <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-purple fixed-top">
+        <div class="container p-2">
+            <a href="index.html"><i class="fas fa-cat logo"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#About" class="nav-link">Sobre mí<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item"><a href="#Experiencie" class="nav-link">Experiencia</a></li>
+                    <li class="nav-item"><a href="#Work" class="nav-link">Trabajos</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <form class="container mt-4 pt-5">
+        <div class="form-group pt-5">
+          <label for="fullname">Nombre Completo</label>
+          <input type="text" class="form-control" id="fullname" aria-describedby="nameHelp" placeholder="Ingrese su nombre">
+          <small id="nameHelp" class="form-text text-muted">Share your name with us!.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">No soy un robot</label>
+        </div>
+        <div class="form-group">
+            <label for="textOpinion">¡Escríbenos un comentario!</label>
+            <textarea name="textOpinion" id="opinion" col="6" rows="6" class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+
+    <script src="Assets/js/jQuery.js"></script>
+    <script src="Assets/js/popper.js"></script>
+    <script src="Assets/js/bootstrap.js"></script>
+</body>
+</html>
