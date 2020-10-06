@@ -1,12 +1,7 @@
-/* :root {
-    font-family: 'Miriam Libre', sans-serif;
-} */
-
 * {
     margin: 0;
     padding: 0;
     border: 0;
-    /*scroll-behavior: smooth;*/
 }
 
 .logo {
@@ -115,8 +110,7 @@ h1, h3 {
 .dark-primary-color    { background: #7B1FA2; }
 .default-primary-color { background: #9C27B0; }
 .light-primary-color   { background: #E1BEE7; }
-.text-primary-color    { color: #FFFFFF; }
 .accent-color, .btn-pink { background: #FF4081; color:  #E1BEE7;}
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #757575; }
-.divider-color         { border-color: #BDBDBD; }
+
