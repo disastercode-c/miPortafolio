@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    scroll-behavior: smooth;
+    /*scroll-behavior: smooth;*/
 }
 
 .logo {
@@ -48,9 +48,15 @@ hr {
     color: #FFFFFF;
 }
 
+
+
 .experiencieSection {
     color: #9C27B0;
     width: 60%;
+}
+.experiencieSection1 {
+    color: #9C27B0;
+    width: 58%;
 }
 
 .carousel-indicators li {
@@ -92,7 +98,7 @@ textarea {
     resize: none;
 }
 
-body h2, h4 {
+body h2, h4, h5 {
     font-family: 'Miriam Libre', sans-serif;
 }
 
@@ -101,12 +107,16 @@ h1, h3 {
 
 }
 
+.indieFlower {font-family: 'Indie Flower', cursive; font-weight:400; font-size: large;}
+
+.sansitaSwashed {font-family: 'Sansita Swashed', cursive;}
+
 
 .dark-primary-color    { background: #7B1FA2; }
 .default-primary-color { background: #9C27B0; }
 .light-primary-color   { background: #E1BEE7; }
 .text-primary-color    { color: #FFFFFF; }
-.accent-color          { background: #FF4081; }
+.accent-color, .btn-pink { background: #FF4081; color:  #E1BEE7;}
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #757575; }
 .divider-color         { border-color: #BDBDBD; }
